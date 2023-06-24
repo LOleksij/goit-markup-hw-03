@@ -126,6 +126,12 @@ button {
   color: #404bbf;
 }
 /* Hero styles */
+.container-hero {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 .hero {
   padding-top: 188px;
   padding-bottom: 292px;
@@ -144,6 +150,9 @@ button {
   background-color: #2e2f42;
 }
 .hero-btn {
+  width: 169px;
+  height: 56px;
+  margin-top: 48px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -201,11 +210,16 @@ button {
   display: flex;
   justify-content: space-between;
 }
+.container-team {
+}
 .team {
   padding-top: 60px;
   background: #f4f4fd;
 }
 .team-title {
+  margin-top: 32px;
+  margin-bottom: 8px;
+  text-align: center;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -214,6 +228,7 @@ button {
   background: #ffffff;
 }
 .team-title-item {
+  margin-top: 120px;
   margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
@@ -224,6 +239,8 @@ button {
   color: #2e2f42;
 }
 .team-list {
+  margin-bottom: 152px;
+  text-align: center;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -234,15 +251,25 @@ button {
 .team-item {
   width: 264px;
   height: 380px;
+  margin-bottom: 120px;
   background-color: #ffffff;
 }
+.teamelement {
+  width: 264px;
+  height: 380px;
+  margin-bottom: 120px;
+}
 /* Footer styles */
-.section {
+.container-footer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
 }
 .footer {
   background-color: #2e2f42;
 }
 .footer-logo {
+  margin-bottom: 16px;
   font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -257,6 +284,9 @@ button {
   color: #f4f4fd;
 }
 .footer-list {
+  padding-bottom: 100px;
+  width: 264px;
+  height: 72px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -264,7 +294,14 @@ button {
   color: #f4f4fd;
 }
 /* Portfolio style */
+.container-btn {
+  display: flex;
+  justify-content: center;
+}
 .portfolio-btn {
+  height: 48px;
+  margin-top: 96px;
+  margin-bottom: 72px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -278,6 +315,9 @@ button {
   background-color: #404bbf;
 }
 .portfolio-title {
+  margin-top: 32px;
+  margin-bottom: 8px;
+  margin-left: 16px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -285,9 +325,26 @@ button {
   color: #2e2f42;
 }
 .portfolio-item {
+  margin-bottom: 80px;
+  margin-left: 16px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.portfolio-list-btn {
+  display: flex;
+  gap: 24px;
+}
+.portfolio-list {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: calk((100% -2 * 24px) /3);
+}
+.portfolio-btn {
+  padding: 12px 24px;
+  border: 0;
 }
