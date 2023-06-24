@@ -53,8 +53,6 @@ button {
   margin-right: auto;
   padding-left: 15;
   padding-right: 15;
-  outline: 2px solid red;
-  outline-offset: -2px;
 }
 /* Section styles */
 /* Header styles */
