@@ -62,12 +62,11 @@ button {
   justify-content: space-between;
 }
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
-  padding: 24px 15px;
+  padding: 0 15px;
   border-bottom: 1px solid #e7e9fc;
 }
 .header-nav {
+  padding: 24px 0;
   display: flex;
   align-items: center;
 }
