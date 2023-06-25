@@ -285,10 +285,6 @@ button {
   color: #f4f4fd;
 }
 /* Portfolio style */
-.container-btn {
-  display: flex;
-  justify-content: center;
-}
 .portfolio-btn {
   height: 48px;
   margin-top: 96px;
@@ -327,15 +323,18 @@ button {
 .portfolio-list-btn {
   display: flex;
   gap: 24px;
+  justify-content: center;
 }
 .portfolio-list {
   display: flex;
-  gap: 24px;
   flex-wrap: wrap;
-  justify-content: space-between;
-  width: calk((100% -2 * 24px) /3);
+  gap: 24px;
 }
 .portfolio-btn {
   padding: 12px 24px;
   border: 0;
+}
+.portfolio-list-item {
+  width: calc((100% -2 * 24px) / 3);
+  margin: 0;
 }
