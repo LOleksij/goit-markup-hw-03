@@ -57,12 +57,12 @@ button {
 /* Section styles */
 /* Header styles */
 .header-container {
+  padding: 24px 15px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .header {
-  padding: 0 15px;
   border-bottom: 1px solid #e7e9fc;
 }
 .header-nav {
@@ -86,7 +86,6 @@ button {
   color: #2e2f42;
 }
 .header-list {
-  padding: 24px 0;
   display: flex;
   align-items: center;
   gap: 40px;
@@ -163,17 +162,17 @@ button {
   background-color: #404bbf;
 }
 /* Description styles  */
+.visually-hidden {
+}
 .description {
-  padding-top: 120px;
-  padding-bottom: 60px;
+  padding: 120px 0;
 }
 .description-list {
-  margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  gap: 24px;
 }
 .description-list-item {
-  width: 264px;
+  width: calc((100%-3 * 24px) / 4);
   justify-content: space-between;
 }
 .description-item {
@@ -193,26 +192,24 @@ button {
 }
 /* What Are We Doing */
 .whatdoing {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding: 120px 0;
 }
 .whatdoing-list {
   display: flex;
-  justify-content: space-between;
+  gap: 24px;
 }
 .whatdoing-list-item {
-  width: 360px;
-  height: 300px;
+  width: calc((100%-2 * 24px) / 3);
 }
 /* Team styles  */
 .people {
   display: flex;
-  justify-content: space-between;
+  gap: 24px;
 }
 .container-team {
 }
 .team {
-  padding-top: 60px;
+  padding: 120px 0;
   background: #f4f4fd;
 }
 .team-title {
@@ -248,7 +245,7 @@ button {
   background-color: #ffffff;
 }
 .team-item {
-  width: 264px;
+  width: calc((100%-3 * 24px) / 4);
   height: 380px;
   margin-bottom: 120px;
   background-color: #ffffff;
