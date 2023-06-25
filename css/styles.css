@@ -62,11 +62,10 @@ button {
   justify-content: space-between;
 }
 .header {
-  padding: 0 15px;
+  padding: 24px 15px;
   border-bottom: 1px solid #e7e9fc;
 }
 .header-nav {
-  padding: 24px 0;
   display: flex;
   align-items: center;
 }
@@ -131,12 +130,12 @@ button {
   align-items: center;
 }
 .hero {
-  padding-top: 188px;
-  padding-bottom: 292px;
+  padding: 188px 0;
+  padding-bottom: 292;
   background: #2e2f42;
 }
 .hero-title {
-  width: 496px;
+  max-width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -146,9 +145,10 @@ button {
   background-color: #2e2f42;
 }
 .hero-btn {
+  border: none;
   border: 1px solid #4d5ae5;
   border-radius: 4px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   margin-top: 48px;
   font-weight: 500;
