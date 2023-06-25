@@ -62,7 +62,7 @@ button {
   justify-content: space-between;
 }
 .header {
-  padding: 24px 15px;
+  padding: 0 15px;
   border-bottom: 1px solid #e7e9fc;
 }
 .header-nav {
@@ -86,6 +86,7 @@ button {
   color: #2e2f42;
 }
 .header-list {
+  padding: 24px 0;
   display: flex;
   align-items: center;
   gap: 40px;
@@ -146,7 +147,6 @@ button {
 }
 .hero-btn {
   border: none;
-  border: 1px solid #4d5ae5;
   border-radius: 4px;
   min-width: 169px;
   height: 56px;
