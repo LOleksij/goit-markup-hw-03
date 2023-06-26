@@ -292,9 +292,7 @@ button {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
-.footer-block {
-  display: inline-block;
-}
+
 /* Portfolio style */
 .portfolio {
   padding: 96px 0 120px 0;
