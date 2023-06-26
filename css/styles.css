@@ -330,7 +330,6 @@ button {
   color: #434455;
 }
 .portfolio-list-btn {
-  border: 1px solid var(--btn-color);
   margin-bottom: 72px;
   display: flex;
   gap: 24px;
