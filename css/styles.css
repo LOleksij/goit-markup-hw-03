@@ -9,7 +9,7 @@ body {
   --logo-color: #4d5ae5;
   --hero-background: #2e2f42;
   --logo-background-light: #f4f4fd;
-  --btn-color: #e7e9fc;
+  --border-light-color: #e7e9fc;
 }
 /* Reset */
 h1,
@@ -299,7 +299,7 @@ button {
 }
 .portfolio-btn {
   border-radius: 4px;
-  border: 1px solid var(--btn-color);
+  border: 1px solid var(--border-light-color);
   height: 48px;
   font-weight: 500;
   font-size: 16px;
